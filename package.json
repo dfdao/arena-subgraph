@@ -1,0 +1,14 @@
+{
+  "name": "graph-api",
+  "version": "1.0.0",
+  "main": "query.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.32",
+    "@types/node-fetch": "^2.6.1",
+    "axios": "^0.27.2",
+    "node-fetch": "2.6.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -14,4 +14,17 @@ Exploring the Graph for Arena
 
 `yarn`
 
-`ts-node query.ts`
+`yarn ts-node query.ts`
+
+# Modifiying Query
+
+Update the `QUERY` variable in `query.ts` for any query you want to run.
+
+This follows the GraphQL [syntax](https://thegraph.com/docs/en/developer/query-the-graph/).
+
+# Details about Dark Forest Arena Subgraph
+
+This is a work in progress, but if you go to the [playground](https://graph-optimism.gnosischain.com/subgraphs/name/arena/test/graphql) and click `Query`, you can see the schema that is available for querying.
+
+> Currently only the `Arena` and `ArenaPlayer` entities are able to be queried!
+
